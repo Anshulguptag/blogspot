@@ -1,0 +1,303 @@
+body
+{
+	background-image: url('background.png');
+	color: #000305;
+	font-size: 87.5%;
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:link, a:visted{
+	color: #CF5C3F;
+
+}
+
+a:hover, a:active{
+	background-color: #CF5C3F;
+	color: #FFF;
+}
+
+.body
+{
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+.mainHeader img
+{
+	width: 30%;
+	height: auto;
+	margin: 2% 0;
+}
+
+.mainHeader nav{
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul{
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li
+{
+	float: left;
+	display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited
+{
+	background-color: #CF5C3F;
+}
+
+.mainHeader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	overflow: hidden;
+}
+
+.content1{
+	width: 70%;
+	float: left;	
+}
+
+.content{
+	width: 70%;
+	float: left;	
+}
+#pro
+{
+	border-radius: 2%;
+}
+.pro-top-sidebar{
+	width: 21%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	float: left;
+	background-color: #FFF;
+	margin-left: 3%;
+	padding: 2% 3%;
+	margin-top: 1.5%;
+	margin-bottom: 1%;
+}
+
+.homepage
+{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+.topcontent{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.bottomcontent{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.top-sidebar{
+	width: 21%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	float: left;
+	background-color: #FFF;
+	margin-left: 3%;
+	padding: 2% 3%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.post-info
+{
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+}
+.middle-sidebar{
+	width: 21%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	float: left;
+	background-color: #FFF;
+	margin-left: 3%;
+	padding: 2% 3%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.bottom-sidebar{
+	width: 21%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	float: left;
+	background-color: #FFF;
+	margin-left: 3%;
+	padding: 2% 3%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.homepagemainFooter{
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #666;
+	margin: 2% 0;
+}
+
+.homepagemainFooter p {
+	width: 92%;
+	margin: 10px auto;
+	color: #FFF;
+}
+
+.mainFooter{
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #666;
+	margin: 2% 0;
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 10px auto;
+	color: #FFF;
+}
+.fa {
+  padding: 2px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  /*background: #3B5998;*/
+  color: white;
+  margin-right: 15px;
+}
+
+.fa-twitter {
+  /*background: #55ACEE;*/
+  color: white;
+  margin-right: 15px;
+}
+
+.fa-instagram {
+  /*background: #125688;*/
+  color: white;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+
+	.body
+		{
+			width: 90%;
+			width: 95%;
+		}
+
+	.mainHeader img {
+		width: 100%;
+		}
+
+	.mainHeader nav{
+	height: 120px;
+	}
+
+	.mainHeader nav ul{
+		padding-left: 0;
+	}
+
+	.mainHeader nav ul li
+	{
+		width: 100%;
+		text-align: center;
+	}
+
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+		padding: 10px 25px;
+		height: 20px;
+		display: block;
+	}
+
+	.content{
+		width: 100%;
+		float: left;
+		margin-top: 2%;	
+	}
+
+	.topcontent{
+		background-color: #FFF;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		padding: 3% 5%;
+		margin-top: 2%;
+	}
+
+	.bottomcontent{
+		background-color: #FFF;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		padding: 3% 5%;
+		margin-top: 2%;
+	}
+		
+
+}
