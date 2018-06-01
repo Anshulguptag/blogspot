@@ -14,8 +14,8 @@
 		<img src="images.jpg">
 
 		<nav><ul>
-			<li class="active"><a href="index.html">About Me</a></li>
-			<li><a href="blogs.html">Latest Blog</a></li>
+			<li class="active"><a href="index.php">About Me</a></li>
+			<li><a href="blogs.php">Latest Blog</a></li>
 			<li><a href="#">Gallery</a></li>
 			
 
